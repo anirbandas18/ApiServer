@@ -87,18 +87,6 @@ Features: AsynchDNS IDN IPv6 Largefile SSPI Kerberos SPNEGO NTLM SSL libz
 	2. Click on the downloaded installer and start installation by following the on screen steps in the instalaction wizard
 	3. Once the installation is completed, verify cURL installation
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
  1. Download this project on your local system as a .zip package
@@ -108,12 +96,12 @@ Give an example
  5. Type `cd ApiServer` to navigate inside the project
  6. Once you are inside the project, enter `mvn clean install` and hit enter. Maven will start gathering the dependencies, compile the project and build it into the target packaging. **Note : The first time you run the maven build it will take some time to download the required dependencies**. Once build is completed successfully, you will get a message  at the end of the console output of `mvn clean install`
  > [INFO] ------------------------------------------------------------------------
-    [INFO] BUILD SUCCESS
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Total time: 5.644 s
-    [INFO] Finished at: 2017-04-13T23:01:20+05:30
-	[INFO] Final Memory: 19M/89M
-	[INFO] ------------------------------------------------------------------------
+ > [INFO] BUILD SUCCESS
+ > [INFO] ------------------------------------------------------------------------
+ > [INFO] Total time: 5.644 s
+ > [INFO] Finished at: 2017-04-13T23:01:20+05:30
+ > [INFO] Final Memory: 19M/89M
+ > [INFO] ------------------------------------------------------------------------
 	
  7. Type `cd ..` at the command prompt to go back to the parent
     directory
